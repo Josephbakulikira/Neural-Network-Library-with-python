@@ -1,5 +1,5 @@
 import numpy as np
-from utils import sigmoid, tanh, stepFunction
+from library.utils import sigmoid, tanh, stepFunction
 
 class NeuralNetwork:
     def __init__(self, input_nodes, hidden_nodes=0, output_nodes=0, learning_rate=0.1, activation=sigmoid):
